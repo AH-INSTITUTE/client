@@ -1,0 +1,32 @@
+.MyWonNavbar{
+position: sticky!important;
+box-shadow: 0 0 5px #c19bcc;
+border-radius: 5px;
+}
+.sticky {
+position: fixed!important;
+display: inline-block;
+top: 0;
+width: 100%;
+z-index: 999;
+background-color: #fff;
+box-shadow: 0 0 2px #18122e;
+}
+.showcase{
+animation: heading;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}
+@keyframes heading {
+0%   {top: -100px;}
+100% {top: 0px;}
+}
+.login-btn{
+    background-color: #2d2553;
+    padding: 7px 25px;
+    border-radius: 5px;
+    color: #fff;
+}
+.login-btn:hover{
+    color: #fff;
+}
